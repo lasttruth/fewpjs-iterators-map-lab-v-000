@@ -17,7 +17,7 @@ const titleCased = () => {
 const capitalizeTutorials = (tutorial) => {
 	let words = tutorial.split(' ');
 	let capTitle = []
-  
+
 for (var i = 0; i < words.length; i++) {
   let letters = words[i].split('');
     letters[0] = letters[0].toUpperCase();
