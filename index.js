@@ -13,4 +13,4 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map(tutorials => capitalizedTutorials(tutorials))
-}
+};
